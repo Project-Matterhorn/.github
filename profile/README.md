@@ -28,7 +28,7 @@ The hardware side will use:
 - Barometer BMP280
 - Thermometer AHT20
 - Nokia 1202 LCD
-- Accelerometer ADXL345 for fall/crash detection]
+- Accelerometer ADXL345 for fall/crash detection
 <br>
 
 The software side will use PWA[^7] which works offline and use web socket to the ESP32 (with hotspot/AP mode) for the communication. In the PWA, you can send/read chats, see visual map location of other friends and import offline map.<br><br>
